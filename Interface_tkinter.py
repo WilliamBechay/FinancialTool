@@ -8,8 +8,9 @@ WIDTH = 960
 class First_Page:
 #MAINWINDOW INTERFACE
     def __init__(self):
-        ###### Image_Path only supports GIF or PGM/PPM images.#####
         self.mainwindow = Tk()#créer une première fenêtre (fenêtre principale)
+        icon = PhotoImage(file = 'images.png') #file ou est le icon 
+        self.mainwindow.iconphoto(False, icon) #ajout des options pour le icon
         self.mainwindow.background_image = PhotoImage(file='./background.png')
         self.mainwindow.background_lable = Label(self.mainwindow,image=self.mainwindow.background_image)
         self.mainwindow.background_lable.place(x=0,relwidth=1, relheight=1)
