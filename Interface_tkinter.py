@@ -164,28 +164,7 @@ class First_Page:
         button1_profit = Button(self.frame,text=txt, font=("impact, 22"), bg='#3C435C', fg='white')#ajouter un bouton2
         button1_profit.pack(pady=5 ,side=TOP)#affcher bouton2 
 
-
-
-
-
-
-
-
-
         
 #pour lancer l'interface
 app = First_Page()
 app.mainwindow.mainloop()
-#test
-
-
-
-
-
-
-
-
-#salut je suis tchoupi
-
-
-
