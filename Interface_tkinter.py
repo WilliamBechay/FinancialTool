@@ -1,7 +1,6 @@
 from tkinter import *
 import os
 
-
 HEIGHT = 720 
 WIDTH = 960
 
@@ -21,13 +20,6 @@ class First_Page:
         self.frame = Frame(self.mainwindow, bg='#192576')#créer la boite (frame)  Pour centrer les 2 textes au centre de la page   
         self.window1_widgets()
         self.frame.pack(expand=YES)#ajouter le frame
-
-
-
-
-
-
-
 
 
 
@@ -54,13 +46,6 @@ class First_Page:
 
 
 
-
-
-
-
-
-
-
 #PAGE ACCUEIL
     def window1_widgets(self):
         self.window1_title("Welcome to BNF")
@@ -79,12 +64,6 @@ class First_Page:
     def window1_button2(self, txt):
         button2_mainwindow = Button(self.frame,command=self.fr_clearFrame,text=txt, font=("impact, 30"), bg='#3C435C', fg='white')#ajouter un bouton2
         button2_mainwindow.pack(pady=0 ,side=RIGHT,)#afficher bouton2 
-
-
-
-
-
-
 
 
 
@@ -115,12 +94,6 @@ class First_Page:
     def window2_button3(self, txt):
         button3_window2 = Button(self.frame,text=txt, font=("impact, 22"), bg='#3C435C', fg='white')#ajouter un bouton2
         button3_window2.pack(pady=5 ,side=TOP)#affcher bouton2 
-
-
-
-
-
-
 
 
 
